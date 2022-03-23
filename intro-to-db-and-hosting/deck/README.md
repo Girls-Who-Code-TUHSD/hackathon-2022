@@ -1,6 +1,6 @@
-# MDX Deck + Code Surfer template
+# Intro to DB and Hosting
 
-This project was generated with the `npm init code-surfer-deck` command.
+This is the slide deck for the _Intro to DB and Hosting_ talk.
 
 ## Development
 
