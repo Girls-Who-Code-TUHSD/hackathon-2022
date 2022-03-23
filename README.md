@@ -5,6 +5,7 @@ Here you'll find all of the presentations, and code, from the 2022 TUHSD Hackath
 ## Installation
 
 ## Next Steps
+
 ### Front End
  - instead of the Pokemon links (href) taking the user to a page with JSON, when the user clicks a link, have it fetch the JSON at that URL and display it on the same page.
  - when the user clicks on one of the Pokemon, use an anchor link to scroll that Pokemon to the top
@@ -16,8 +17,7 @@ Here you'll find all of the presentations, and code, from the 2022 TUHSD Hackath
  - Javascript: https://eloquentjavascript.net for learning and https://developer.mozilla.org/en-US/docs/Web/JavaScript for reference
  - [Codecademy](https://www.codecademy.com/learn) <- Alex highly recommends
 
-
 ## Authors
 - [Alex](https://github.com/axle07) meetalexjohnson@gmail.com
 - [Joseph](https://github.com/josephbriones)
-- [Tim](https://github.com/retrocede)
+- [Tim](https://github.com/retrocede) [tim.stapleton@hey.com](mailto:tim.stapleton@hey.com)
