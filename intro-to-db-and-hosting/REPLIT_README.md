@@ -227,7 +227,10 @@ SELECT t.Name, p.Name, p.Type_1, p.Type_2
 
 ## Challenges
 
-- a
+- Update the pokemon table to include a pokedex description.
+- Create a new table to track individual pokemon, their level, and attributes.
+- Improve the trainer query above to use the table for individual pokemon.
+- Improve the trainer query to get all pokemon for a given trainer.
 
 ## Additional Topics to Research
 
