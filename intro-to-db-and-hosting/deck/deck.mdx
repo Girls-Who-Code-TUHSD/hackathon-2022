@@ -1,23 +1,26 @@
-import {
-  CodeSurfer,
-  CodeSurferColumns,
-  Step,
-} from "code-surfer";
-import { Notes } from 'mdx-deck';
-import { github, vsDark } from "@code-surfer/themes";
+import { Steps, Split, Footer, Image, Notes } from 'mdx-deck';
+import { condensed } from '@mdx-deck/themes'
 
-export const theme = vsDark;
+export const theme = condensed;
+
+<Footer>
+
+TUHSD://hackath.on/2022/intro-to-db-and-hosting
+
+</Footer>
 
 # Intro to Databases and Hosting 
 
 <Notes>
 
-Talk about the format and what we will be covering.
+3m
 
-Splitting talk into 2 halves, 1st half is DB, 2nd half is Hosting 
-Short break in between
+Give the students a heads up on the format,
+and what we'll be covering.
 
-Aim for 3m here.
+- ~40m for the DB half of the talk
+- A short break
+- ~40m for the Hosting half of the talk.
 
 </Notes>
 
@@ -25,9 +28,18 @@ Aim for 3m here.
 
 # Who am I?
 
+<Steps>
+
+- Self Taught Coder
+- Senior Software Engineer at Nikola
+- Avid Reader and Gamer
+
+</Steps>
+
+
 <Notes>
 
-Aim for 2m  here.
+2m
 
 </Notes>
 
@@ -37,9 +49,13 @@ Aim for 2m  here.
 
 <Notes>
 
-High level overview.
+2m
 
-Aim for 2m here.
+- An organized collection of structured information, or data.
+- Most common types of databases organize data into tables with
+  rows of data, similar to a spreadsheet.
+- Improvements over spreadsheets to allow for network access,
+  larger volumes of data, and multiple user access scenarios.
 
 </Notes>
 
@@ -47,11 +63,42 @@ Aim for 2m here.
 
 # Common Types of Databases
 
+### Relational
+
+<Steps>
+
+- MySQL
+- Postgres
+- MariaDB
+
+</Steps>
+
+### Document Store / NoSQL
+
+<Steps>
+
+- Mongo
+- DynamoDB
+- CouchDB
+
+</Steps>
+
+
 <Notes>
 
-Relational, Document store, examples of each.
+5/6m
 
-Aim for 3m here.
+BE SURE TO COVER THE DIFFERENCES,
+YOU REMOVED THE DEDICATED SLIDE FOR THAT.
+
+- Relational - Tables with fixed columns. 
+- Document Store - Stores JSON documents, key/value pairs.
+
+Document stores are often easy to get started with, are flexible,
+and can be quite fast for queries and filtering.
+
+SQL / Relational DBs shine with well defined data structures,
+consistent data, and multi table queries (relationships).
 
 </Notes>
 
@@ -59,49 +106,39 @@ Aim for 3m here.
 
 # Other Types of Databases
 
-<Notess>
+<Steps>
+
+- Time-Series
+- Graph
+- In Memory
+- Financial
+
+</Steps>
+
+<Notes>
+
+2m
 
 Just quickly cover that there are many other types, Time-Series, Financial, Graph, In Memory.
 
 Links for further research in Readme.
 
-Aim for 2m here.
-
-</Notess>
-
----
-
-# Relational vs Document Store
-
-<Notes>
-
-High level of differences.
-
-We will be focusing on Relational b/c it is the most common, and is what is being used in the back end talk.
-
-Aim for 3m here.
-
 </Notes>
 
 ---
 
-# SQLite and Replit
+# SQLite 3 and Replit
+
+[https://bit.ly/35a8MqV](https://replit.com/@retrocede/TUHSD-Hackathon-2022-Intro-to-DB)
 
 <Notes>
 
-Link to a replit, share screen.
+20m
 
-Aim for ~20m here. Things I would like to at least briefly touch on:
+For these examples we will be using REPL.it and SQLite.
 
-- What is a Table?
-- What is a Schema?
-- What is an Entry / Row ?
-- Primary and Foreign Keys
-- One to One and One to Many relationships
-- Queries
-- Joining
-- Migrations
-- Seeding
+- Since replit is a tool you already have had some exposure to, and they are a sponsor for the hackathon.
+- and b/c SQL/Relational databases are going to be generally the most common type you run into.
 
 </Notes>
 
@@ -113,13 +150,9 @@ Aim for ~20m here. Things I would like to at least briefly touch on:
 
 <Notes>
 
-Additional Learning topics to add to readme
+10m
 
-- ACID
-- first, second, and third normal forms
-- query optimization
-- stored procedures
-- indexing
+Short break after this. We need ~30-40m left for Hosting
 
 </Notes>
 
@@ -129,7 +162,7 @@ Additional Learning topics to add to readme
 
 <Notes>
 
-Aim for 2m here
+2m
 
 </Notes>
 
@@ -137,14 +170,20 @@ Aim for 2m here
 
 # Types of Hosting
 
+<Steps>
+
 - CDN / Static / JAMSTACK
 - PAAS (Heroku, etc)
 - Bare Metal VM
 - Docker / Kubernetes
 
+</Steps>
+
 <Notes>
 
-Can spend 5m here going over different types.
+5m
+
+Give an overview of the broad types of hosting.
 
 </Notes>
 
@@ -154,27 +193,43 @@ Can spend 5m here going over different types.
 
 <Notes>
 
-3m to cover that these are what we're going with and why.
+3m
+
+Using Heroku for ease of use.
+Using Repl.it as they are a sponsor and a tools some of you have familiarity with.
 
 </Notes>
 
 ---
 
-Hosting a flask project on Heroku
+# Hosting a flask project on Heroku
 
 <Notes>
 
-~10m to show how you can quickly spin this up.
+~10m
+
+First just show that you can deploy a new instance of a template from a link in github.
+
+Then go over what is required and what makes that happen:
+- Procfile
+- requirements.txt
+- demo that we can hit it.
+- https://stackabuse.com/deploying-a-flask-application-to-heroku/
 
 </Notes>
 
 ---
 
-Hosting a flask project on Repl.it
+# Hosting a flask project on Repl.it
 
 <Notes>
 
-~10m to show how you can quickly spin this up.
+~10m
+
+- Create a new python repl
+- Add Flask through package manager
+- https://replit.com/talk/learn/Flask-Tutorial-Part-1-the-basics/26272
+
 
 </Notes>
 
@@ -188,7 +243,7 @@ Learning opportunities:
 
 <Notes>
 
-can spend up to 5m on these next topics they may want to pursue.
+5m
 
 </Notes>
 
@@ -198,6 +253,6 @@ can spend up to 5m on these next topics they may want to pursue.
 
 <Notes>
 
-up to 10m for Q&A
+10m
 
 </Notes>
