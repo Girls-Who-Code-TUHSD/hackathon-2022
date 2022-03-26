@@ -2,6 +2,8 @@
 
 This is the slide deck for the _Intro to Full Stack_ talk.
 
+You may also access the slide deck at this url: https://tuhsd-hackathon-2022-intro-to-full-stack.netlify.app/#0
+
 ## Development
 
 To run the presentation deck in development mode:
