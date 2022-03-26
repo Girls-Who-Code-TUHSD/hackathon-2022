@@ -1,4 +1,40 @@
-nav {
-  display: flex;
-  justify-content: space-between;
+section aside {
+  color: green;
 }
+
+body {
+  background-color: #b6fcfb;
+  margin: 0;
+}
+
+div {
+  font-size: 24px;
+}
+
+nav {
+  background: black;
+  color: white;
+  padding: 36px 8px 8px;
+}
+
+#home {
+  color: blue;
+}
+
+.red {
+  color: red;
+}
+
+/* .inline {
+  display: inline;
+} */
+
+/* flexbox */
+/* https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
+.flex {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+/* CSS grids */
